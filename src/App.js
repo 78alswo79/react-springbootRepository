@@ -6,6 +6,7 @@ import {
 from "react-router-dom";
 import Home from "./route/Home";
 import Detail from "./route/Detail";
+import Login from "./route/Login";
 
 function App() {
   // const [hello, setHello] = useState('');
@@ -29,8 +30,9 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route path='/'                 element={<Home />}></Route>
-        <Route path='/detail/:gimozzi'  element={<Detail />}></Route>
+        <Route path="/"                   element={<Login />}></Route>
+        <Route path='/home'               element={<Home />} ></Route>
+        <Route path='/detail/:gimozzi'    element={<Detail />}></Route>
       </Routes>
     </Router>
     </>

@@ -65,7 +65,7 @@ function Home() {
 
     sendData = {
        id : arr2
-       , text : '나 여기서 두 팔 벌려 힘껏 달려와'
+       , text : 'break away~~!~!~'
     };
 
     return (
